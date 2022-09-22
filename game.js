@@ -50,8 +50,8 @@ class Case {
     document.getElementById("miniMap").insertAdjacentHTML('beforeend', '<svg id = map' + String(this.x) + String(this.y) + ' width="280" height="280">' + svgCases[this.boxType][this.etat] + '</svg>');
     document.getElementById('map' + String(x) + String(y)).style.transform = "scale(" + String(1.48 / (n + 0.15 * (n - 1))) + ")";
     document.getElementById('map' + String(x) + String(y)).style.position = "absolute";
-    document.getElementById('map' + String(x) + String(y)).style.top = (y * 1.15 * 415 / (n + 0.15 * (n - 1)) + (1.48 / (n + 0.15 * (n - 1)) - 1) * 280 / 2 + 30);
-    document.getElementById('map' + String(x) + String(y)).style.left = (x * 1.15 * 415 / (n + 0.15 * (n - 1)) + (1.48 / (n + 0.15 * (n - 1)) - 1) * 280 / 2 + 30);
+    document.getElementById('map' + String(x) + String(y)).style.top = String((y * 1.15 * 415 / (n + 0.15 * (n - 1)) + (1.48 / (n + 0.15 * (n - 1)) - 1) * 280 / 2 + 30)) + "px";
+    document.getElementById('map' + String(x) + String(y)).style.left = String((x * 1.15 * 415 / (n + 0.15 * (n - 1)) + (1.48 / (n + 0.15 * (n - 1)) - 1) * 280 / 2 + 30)) + "px";
   }
 
   getSVG() {
