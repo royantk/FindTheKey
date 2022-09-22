@@ -8,13 +8,17 @@
 }
 :root {
 	--web-view-ids: newIndex;
+	transform: scale(0.8);
+	background-color: rgba(247,247,247,1);;
 }
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	border: none;
 }
+
 #newIndex {
 	position: absolute;
 	width: 1920px;
@@ -495,7 +499,7 @@
 	width: 710px;
 	height: 153.49755859375px;
 	text-align: right;
-	font-family: Helvetica Neue;
+	font-family: 'Barlow', sans-serif;
 	font-style: normal;
 	font-weight: lighter;
 	font-size: 120px;
@@ -599,7 +603,7 @@
 		width: 39px;
 		white-space: nowrap;
 		text-align: left;
-		font-family: Helvetica Neue;
+		font-family: 'Barlow', sans-serif;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 20px;
@@ -615,7 +619,7 @@
 		line-height: 115px;
 		margin-top: -9.5px;
 		text-align: center;
-		font-family: HelveticaNeue-Light;
+		font-family: 'Barlow', sans-serif;
 		font-style: normal;
 		font-weight: lighter;
 		font-size: 96px;
@@ -680,7 +684,7 @@
 	height: 48px;
 	left: 522px;
 	top: 258.489px;
-         font-family: Helvetica Neue;
+    font-family: 'Barlow', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
@@ -695,7 +699,7 @@
 	width: 39px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Helvetica Neue;
+	font-family: 'Barlow', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
@@ -711,7 +715,7 @@
 	line-height: 115px;
 	margin-top: -9.5px;
 	text-align: center;
-	font-family: HelveticaNeue-Light;
+	font-family: 'Barlow', sans-serif;
 	font-style: normal;
 	font-weight: lighter;
 	font-size: 96px;
