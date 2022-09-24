@@ -371,6 +371,6 @@ function majAffichage(player, game) {
 
 // Main
 
-let gameSize = 4;
+let gameSize = 5;
 let game = new Game(gameSize);
 let player = new Player(game.xDepart, game.yDepart);
