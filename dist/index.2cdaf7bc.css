@@ -1,0 +1,141 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 2fr 1fr;
+  margin: 0;
+  display: grid;
+}
+
+#main-pannel {
+  width: 100%;
+  height: 100%;
+  background-color: #0ff;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+#main-boxes {
+  grid-gap: 30px;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  border-radius: 10%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 4%;
+  display: grid;
+  position: absolute;
+}
+
+mbox {
+  aspect-ratio: 1;
+  background-color: #fff;
+  border-radius: 10%;
+}
+
+#fog {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-image: radial-gradient(#0000 40%, #fff 60%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#arrows {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.arrow {
+  width: 20vmin;
+  height: 20vmin;
+  opacity: .5;
+  background-color: #deb887;
+  border-radius: 100%;
+}
+
+#center-arrows {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+}
+
+#info-pannel {
+  width: 100%;
+  height: 100%;
+  background-color: #00f;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+#info-box {
+  height: 30%;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-right: 40px;
+  display: flex;
+}
+
+#info-box h1 {
+  color: #fff;
+  font-family: Barlow, sans-serif;
+  font-size: 4vw;
+  font-weight: 100;
+}
+
+#icons-box {
+  height: 30%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: baseline;
+  display: flex;
+}
+
+.info-icon {
+  height: 4vw;
+  width: 4vw;
+  background-color: beige;
+}
+
+#map {
+  grid-gap: 6px;
+  height: 20vw;
+  max-height: 50vh;
+  aspect-ratio: 1;
+  background-color: #d3d3d3;
+  border-radius: 5%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-right: 40px;
+  padding: 4%;
+  display: grid;
+}
+
+lbox {
+  aspect-ratio: 1;
+  background-color: #fff;
+  border-radius: 10%;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
