@@ -1,0 +1,23 @@
+{
+  "name": "findthekey",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royantk/FindTheKey.git"
+  },
+  "author": "Killian Royant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/royantk/FindTheKey/issues"
+  },
+  "homepage": "https://github.com/royantk/FindTheKey#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
