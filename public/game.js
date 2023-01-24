@@ -1,3 +1,14 @@
+// Afficher la réponse à la reqûete GET de l'adresse http://cerfeuil.ovh1.ec-m.fr:10427/
+
+fetch('http://cerfeuil.ovh1.ec-m.fr:10427')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.error(error);
+  });
+
 
 //document.getElementById("transitionBox1C").style.display = "inline";
 //document.getElementById("transitionBox1C").style.visibility = "hidden";

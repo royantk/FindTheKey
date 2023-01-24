@@ -26,15 +26,17 @@ Mes objectifs à l'occasion de ce POK sont les suivants :
 
 N'ayant pas les compétences nécessaires au développement full stack, j'ai décidé de consacrer mes MON à l'apprentissage du développement full stack et de me concentrer uniquement sur la refonte du **front pour le temps 1**. Le **temps 2** sera consacré à l'**implémentation du back**.
 
-- **Temps 1**
+- **Temps 1** *(terminé)*
   - ~~Régler le problème de police~~ *(fait)*
-  - Régler le problème de compatibilité Firefox
-  - Reprendre le code HTML/CSS pour l’améliorer (responsivité, gestion du CSS, etc.)
-  - Améliorer le jeu
-    - Ajout d’un personnage
-    - Ajout de pièces
+  - ~~Régler le problème de compatibilité Firefox~~ *(fait)*
+  - ~~Reprendre le code HTML/CSS pour l’améliorer (responsivité, gestion du CSS, etc.)~~ *(fait)*
+  - ~~Améliorer le jeu~~ *(abandonné)*
+    - ~~Ajout d’un personnage~~
+    - ~~Ajout de pièces~~
 - **Temps 2**
   - Ajouter une partie « back » au site
-    - Création du back
-    - Déplacement de la génération des cases
-    - Création d'une gestion des utilisateurs
+    - ~~Initialisation du back (Node, Express)~~ *(fait)*
+    - Initialisation de la base de donnée locale
+    - Création des routes (API)
+    - Récupération des données sur le front (fetch)
+  - Déploiement sur un serveur distant
