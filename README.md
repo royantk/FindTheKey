@@ -36,7 +36,7 @@ N'ayant pas les compétences nécessaires au développement full stack, j'ai dé
 - **Temps 2**
   - Ajouter une partie « back » au site
     - ~~Initialisation du back (Node, Express)~~ *(fait)*
-    - Initialisation de la base de donnée locale
-    - Création des routes (API)
-    - Récupération des données sur le front (fetch)
-  - Déploiement sur un serveur distant
+    - ~~Initialisation de la base de donnée locale~~ *(fait)*
+    - Création des routes (API) *(en cours)*
+    - Récupération des données sur le front *(en cours)*
+    - ~~Déploiement sur un serveur distant~~
